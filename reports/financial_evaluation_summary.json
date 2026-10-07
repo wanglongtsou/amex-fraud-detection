@@ -1,0 +1,21 @@
+{
+    "cost_params": {
+        "cost_per_false_negative_usd": 250.0,
+        "cost_per_false_positive_usd": 15.0
+    },
+    "default_threshold_0.5": {
+        "total_cost_usd": 515.0,
+        "false_negatives": 2,
+        "false_positives": 1
+    },
+    "optimal_threshold": {
+        "threshold": 0.0298,
+        "total_cost_usd": 60.0,
+        "false_negatives": 0,
+        "false_positives": 4
+    },
+    "business_impact": {
+        "estimated_savings_usd": 455.0,
+        "cost_reduction_percent": 88.35
+    }
+}

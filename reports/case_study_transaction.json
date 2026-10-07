@@ -1,0 +1,26 @@
+{
+    "sample_index": 14,
+    "predicted_fraud_probability": 0.9988,
+    "actual_ground_truth": 1,
+    "top_features": {
+        "TransactionAmount": 312.47,
+        "AccountBalance": 9419.27,
+        "TransactionDuration": 148.0,
+        "CustomerAge": 49.0,
+        "amount_to_balance_ratio": 0.0332,
+        "log_amount": 5.7477,
+        "log_balance": 9.1506,
+        "balance_drain_delta": 9106.8,
+        "duration_per_dollar": 0.4721,
+        "time_since_prev_txn_hours": 13238.7275,
+        "txn_hour": 17.0,
+        "txn_dayofweek": 1.0,
+        "login_attempts_raw": 4.0,
+        "location_freq": 0.0249,
+        "merchantid_freq": 0.0095,
+        "deviceid_freq": 0.0015,
+        "ip_address_freq": 0.002,
+        "TransactionType_Debit": 1.0,
+        "CustomerOccupation_Engineer": 1.0
+    }
+}
