@@ -187,17 +187,6 @@ python -m pytest tests/test_pipeline.py -v
 
 ---
 
-## Bullet Points for Your Resume / CV
-
-Copy and paste these bullet points onto your resume:
-
-> **Bank Transaction Fraud Detection System (Python, XGBoost, LightGBM, SHAP)**
-> - Engineered an end-to-end financial transaction fraud detection pipeline on 2,500+ records, establishing multi-vector risk labeling via Isolation Forest and domain-specific overdraft rules.
-> - Formulated leak-free feature pipelines encompassing liquidity ratios, velocity deltas, and frequency encodings, benchmarking Logistic Regression, LightGBM, and XGBoost to achieve **0.9984 PR-AUC**.
-> - Formulated an asymmetric financial cost matrix ($C_{\text{FN}}=\$250$, $C_{\text{FP}}=\$15$) to optimize decision thresholds, reducing expected business losses by **88.35%** versus standard 0.5 cutoffs.
-> - Implemented SHAP (TreeExplainer) to deliver global risk factor rankings and local waterfall explanations for individual flagged transactions to satisfy credit compliance and fraud governance standards.
-
----
-
 ## License
 This project is licensed under the MIT License.
+
