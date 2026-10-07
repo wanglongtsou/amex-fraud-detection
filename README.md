@@ -9,7 +9,7 @@
 
 ---
 
-## 📌 Executive Summary
+## Executive Summary
 In payment networks such as **American Express**, transaction fraud accounts for billions in potential chargeback losses. However, evaluating fraud models with conventional accuracy is flawed due to extreme class imbalance and asymmetric error costs. A missed fraudulent transaction (**False Negative**) results in immediate balance loss ($250+), while declining a legitimate customer (**False Positive**) creates brand friction and lost interchange revenue (~$15).
 
 This repository implements an end-to-end, production-ready machine learning pipeline for bank transaction fraud detection:
@@ -21,7 +21,7 @@ This repository implements an end-to-end, production-ready machine learning pipe
 
 ---
 
-## 🏗️ Architecture & Pipeline Flow
+## Architecture & Pipeline Flow
 
 ```text
        ┌────────────────────────────────────────────────────────┐
@@ -68,7 +68,7 @@ This repository implements an end-to-end, production-ready machine learning pipe
 
 ---
 
-## 📊 Comparative Model Benchmarks
+## Comparative Model Benchmarks
 
 Models were evaluated on a held-out stratified test set (503 transactions, 43 fraud cases, 8.55% base rate):
 
@@ -82,7 +82,7 @@ Models were evaluated on a held-out stratified test set (503 transactions, 43 fr
 
 ---
 
-## 💰 Business Cost Curve & Threshold Tuning
+## Business Cost Curve & Threshold Tuning
 
 In credit card fraud operations, a model's threshold must reflect real dollar impacts:
 $$\text{Total Financial Cost}(t) = \text{FN}(t) \times C_{\text{FN}} + \text{FP}(t) \times C_{\text{FP}}$$
@@ -98,7 +98,7 @@ $$\text{Total Financial Cost}(t) = \text{FN}(t) \times C_{\text{FN}} + \text{FP}
 
 ---
 
-## 🔍 Model Governance & Explainability (SHAP)
+## Model Governance & Explainability (SHAP)
 
 Regulatory standards (e.g., Fair Credit Reporting Act, internal risk committees) require transparency in algorithmic decisions.
 
@@ -114,7 +114,7 @@ Every transaction flagged for decline or investigation can be audited with exact
 
 ---
 
-## 📂 Repository Structure
+## Repository Structure
 
 ```text
 amex-fraud-detection/
@@ -149,7 +149,7 @@ amex-fraud-detection/
 
 ---
 
-## 🚀 Quickstart & Reproduction
+## Quickstart & Reproduction
 
 ### 1. Clone & Set Up Environment
 ```bash
@@ -187,7 +187,7 @@ python -m pytest tests/test_pipeline.py -v
 
 ---
 
-## 📄 Bullet Points for Your Resume / CV
+## Bullet Points for Your Resume / CV
 
 Copy and paste these bullet points onto your resume:
 
@@ -199,5 +199,5 @@ Copy and paste these bullet points onto your resume:
 
 ---
 
-## 📜 License
+## License
 This project is licensed under the MIT License.
